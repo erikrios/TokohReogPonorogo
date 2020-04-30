@@ -11,7 +11,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".BujangGanongActivity"></activity>
+        <activity android:name=".AboutMeActivity"></activity>
+        <activity android:name=".BujangGanongActivity" />
         <activity android:name=".KlonoSewandonoActivity" />
         <activity android:name=".WarokActivity" />
         <activity android:name=".ReogActivity" />
