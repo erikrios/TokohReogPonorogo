@@ -1,11 +1,9 @@
 package com.erikriosetiawan.tokohreogponorogo;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.support.v7.widget.GridLayoutManager;
+import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
-import android.view.MenuItem;
 
 import java.util.ArrayList;
 
@@ -26,7 +24,7 @@ public class MainActivity extends AppCompatActivity {
         showRecyclerList();
     }
 
-    private void showRecyclerList(){
+    private void showRecyclerList() {
         rvCategory.setLayoutManager(new LinearLayoutManager(this));
         ListReogAdapter listPresidentAdapter = new ListReogAdapter(this);
         listPresidentAdapter.setListReog(list);
