@@ -9,9 +9,10 @@ public class AboutMeActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_about_me);
+        setActionBarTitle();
     }
 
-    private void setAppBarTitle() {
+    private void setActionBarTitle() {
         if (getSupportActionBar() != null)
             getSupportActionBar().setTitle(getResources().getString(R.string.about_me));
     }
